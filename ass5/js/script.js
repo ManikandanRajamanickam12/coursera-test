@@ -65,15 +65,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // TODO: STEP 0: Look over the code from
 // *** start ***
-showLoading("#main-content");
-$ajaxUtils.sendGetRequest(
-  homeHtml,
-  function (responseText) {
-    document.querySelector("#main-content")
-      .innerHTML = responseText;
-  },
-  false);
-});
+
 // to
 // *** finish ***
 // below.
